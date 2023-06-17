@@ -1,25 +1,32 @@
-.container {
-    max-width: 1280px;
-    margin: 0 auto;
 
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f6f6f6;
+    text-align: center;
+    font-weight: bold;
 }
-.logo, nav, aside {
-border: 2px gray solid;
-padding: 10px;
+
+h2 {
+    margin-top: 0;
 }
-.flex {
-    display: flex;
+
+figure {
+    margin: 10px;
+    border: 2px solid #cccccc;
+    border-radius: 20%;
+    padding: 30px;
+    float: left;
 }
-.img {
-    height: 300px;
-    background-color: azure;
-}
-.jcsb {
-justify-content: space-between;
-}
-.aife {
-align-self:first baseline ;
-}
+
 footer {
-    ma
+    clear: left;
+    padding-top: 2px;
+}
+
+hr {
+    border: 0.1px double #cccccc;
+}
+
+figcaption {
+    padding: 10px;
 }
